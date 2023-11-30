@@ -10,8 +10,9 @@ public class Main {
     public static void main(String[] args) {
 
         Student student = new Student("Margherita", 29);
+        List<Student> list = new ArrayList<>(Arrays.asList(student));
 
-        List<Student> list = Arrays.asList(student);
+        //List<Student> list = Arrays.asList(student);
         List<String> lista1 = new ArrayList<>();
         lista1.add(student.name);
         lista1.add(String.valueOf(student.age));
